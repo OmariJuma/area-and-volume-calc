@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/wallpaper1"
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:text="Calculator"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+android:contentDescription="an calculator image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/iconn" />
+
+    <Button
+        android:id="@+id/btnCircle"
+        android:drawableLeft="@drawable/calc"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:text="AREA OF CIRCLE"
+        android:textStyle="bold"
+        android:backgroundTint="#F57F17"
+        />
+
+    <Button
+        android:id="@+id/btnASphere"
+        android:drawableLeft="@drawable/calc"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Area of sphere"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:backgroundTint="#FFC107"
+        />
+
+    <Button
+        android:id="@+id/btnVsphere"
+        android:drawableLeft="@drawable/calc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volume of sphere"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:backgroundTint="#F57F17"
+        />
+
+    <Button
+        android:id="@+id/btnTriangle"
+        android:drawableLeft="@drawable/calc"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Area of Triangle"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:backgroundTint="#FFC107"
+
+        />
+
+    <Button
+        android:id="@+id/btnAbt"
+        android:drawableLeft="@drawable/calc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About us"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:backgroundTint="#F57F17"
+        />
+
+</LinearLayout>
+</ScrollView>
