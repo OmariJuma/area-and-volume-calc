@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         }
         var btnAbt=findViewById<Button>(R.id.btnAbt)
         btnAbt.setOnClickListener(){
-            var intent=Intent(this,AreaOfTriangle::class.java)
+            var intent=Intent(this,AboutUs::class.java)
             startActivity(intent)
         }
 
