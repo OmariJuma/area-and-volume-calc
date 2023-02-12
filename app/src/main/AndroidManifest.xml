@@ -12,6 +12,9 @@
         android:theme="@style/Theme.AreaCalculator"
         tools:targetApi="31">
         <activity
+            android:name=".AreaOfSphere"
+            android:exported="false" />
+        <activity
             android:name=".AreaCircle"
             android:exported="false" />
         <activity
