@@ -12,6 +12,15 @@
         android:theme="@style/Theme.AreaCalculator"
         tools:targetApi="31">
         <activity
+            android:name=".AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".AreaOfTriangle"
+            android:exported="false" />
+        <activity
+            android:name=".VolumeOfSphere"
+            android:exported="false" />
+        <activity
             android:name=".AreaOfSphere"
             android:exported="false" />
         <activity
